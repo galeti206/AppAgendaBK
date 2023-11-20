@@ -33,7 +33,7 @@ public class Persona implements Serializable {
     private Date fecha;
     @Basic
     @Column(name = "NUM_HIJOS", nullable = true)
-    private short nHijos;
+    private Short nHijos;
     @Basic
     @Column(name = "ESTADO_CIVIL", nullable = true, length = 1)
     private String estCivil;
@@ -42,7 +42,7 @@ public class Persona implements Serializable {
     private BigDecimal salario;
     @Basic
     @Column(name = "JUBILADO", nullable = true)
-    private short jubilado;
+    private Short jubilado;
     @Basic
     @Column(name = "FOTO", nullable = true, length = 30)
     private String foto;
